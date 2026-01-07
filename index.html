@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- <h1 class="text-danger bg-dark">Hello World</h1> -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- navbar 1 start -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="img/download (1).png" alt=""
+                                height="30px">Youtube</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-0 " type="search" placeholder="Search" aria-label="Search"
+                                    style="width: 600px; margin-left:250px; border-radius:50px 0 0 50px" />
+                                <button class="btn btn-outline-dark " type="submit"
+                                    style="border-radius: 0  50px  50px 0; width:70px;"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button>
+                                <button style="width: 40px; height:40px; margin-left:20px; border-radius:50%;"><i
+                                        class="fa-solid fa-microphone"></i></button>
+                                <button class="rounded-pill " style="width: 100px; margin-left:160px;"> +Create</button>
+                                <!-- <button class="border-0" style=" margin-left:30px;"> <i
+                                        class="fa-regular fa-bell fa-2x bg-light"></i></button> -->
+                                <button type="button" class="btn  position-relative">
+                                    <i class="fa-regular fa-bell mt-2 bg-light"></i>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-2">
+                                        99+
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <!-- navbar 1 end -->
+            </div>
+
+            <div class="row p-0">
+                <!-- navbar 2 start -->
+                <div class="col-sm-2">
+                    <div class="row ">
+                        <div class="col-sm-12  navbar  " id="navbar" style=" height:90vh; overflow-y: scroll;">
+                            <ul class="nav flex-column ">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"> Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Shorts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Subscription</a>
+                                </li>
+                                <hr>
+                                <span>You </span>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">History</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Playlist</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Yourvideos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Watch later</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Likes Videos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Subscription</a>
+                                </li>
+                                <br>
+                                <hr>
+                                <span>Subscription</span>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Playlist</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Yourvideos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Watch later</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Likes Videos</a>
+                                </li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Playlist</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Yourvideos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Watch later</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Likes Videos</a>
+                                </li>
+                                <br>
+                                <hr>
+                                <span>Explore</span>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Playlist</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Yourvideos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Watch later</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Likes Videos</a>
+                                </li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Playlist</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Yourvideos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Watch later</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Likes Videos</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!-- navbar 2 end -->
+
+                </div>
+                <div class="col-sm-10 " style="height: 90vh; overflow-y: scroll;">
+
+                    <nav class="navbar navbar-expand-lg">
+
+
+
+                        <ul class="navbar-nav ">
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">movie</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">game</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">movie</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">game</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">movie</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">game</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link" href="#">movie</a>
+                            </li>
+                            <li class="ms-4">
+                                <a class="nav-link active" aria-current="page" href="#">music</a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+                    <!-- card start -->
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <div class="row">
+
+                                <div class="col-sm-12 py-2">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"><img
+                                                        src="img/images (1).jpg" class="card-img-top" alt="..."></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"><img src="img/images (2).jpg" class="card-img-top" alt="..."></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"><img src="img/download.jpg" class="card-img-top" alt="... "
+                                                    height="175vh"></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/G6QyOhLS-1M?si=Y2XICy9Y1xgUKRf9"> <img
+                                                        src="img/images.jpg" class="card-img-top" alt="..."></a>
+
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 py-2 ">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"><img src="img/download (1).jpg" class="card-img-top" alt="..."></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"><img src="img/7.jpg" class="card-img-top" alt="..."></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                               <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"> <img src="img/8.jpg" class="card-img-top" alt="..."></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <a href="https://youtu.be/Tto8TS-fJQU?si=ARX1lvG2gsUs6tYQ"><img src="img/9.jpg" class="card-img-top" alt="..."></a>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 py-2 ">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/7.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/eye.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/8.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/9.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-sm-12 py-2 ">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/7.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/eye.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/8.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/9.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 py-2 ">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/download (1).jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <iframe width="290" height="170"
+                                                    src="https://www.youtube.com/embed/7wnove7K-ZQ?si=yfsiYH9U3CG1NLSO"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin"
+                                                    allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/8.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="card">
+                                                <img src="img/9.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text"> <span> Lecture 5 : Loops in Python | While &
+                                                            For
+                                                            Loops
+                                                            | Python
+                                                            Full Course <br> <b>Softpro India</b></span><br> 1.7M views
+                                                        ,1
+                                                        year
+                                                        ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.js" rel="javascript"></script>
+</body>
+
+</html>
